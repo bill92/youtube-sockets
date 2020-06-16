@@ -1,0 +1,17 @@
+{
+  "name": "youtubersockets",
+  "version": "0.0.1",
+  "description": "Download Youtube Videos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Billy McCord",
+  "license": "MIT",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "readline": "^1.3.0",
+    "socket.io": "^2.2.0",
+    "ytdl-core": "^0.29.2"
+  }
+}
